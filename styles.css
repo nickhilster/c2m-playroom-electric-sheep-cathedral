@@ -1,0 +1,146 @@
+:root {
+  --ink: #dbe2f3;
+  --ink-dim: rgba(219, 226, 243, 0.72);
+  --bg-top: #060814;
+  --bg-mid: #0f1a3a;
+  --bg-bottom: #1f1034;
+  --panel: rgba(8, 10, 20, 0.42);
+  --panel-border: rgba(221, 233, 255, 0.2);
+  --focus: #8ee8ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: radial-gradient(circle at 20% 20%, #223067 0%, #0a122a 44%, #070914 100%);
+  color: var(--ink);
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+.scene-shell {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  isolation: isolate;
+}
+
+#cathedralCanvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.hud {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  pointer-events: none;
+  padding: 1rem;
+}
+
+.hud-top {
+  align-self: flex-start;
+  max-width: min(560px, 90vw);
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--panel-border);
+  background: var(--panel);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  border-radius: 14px;
+}
+
+.hud-top h1 {
+  margin: 0;
+  font-size: clamp(1.1rem, 2.5vw, 1.75rem);
+  letter-spacing: 0.03em;
+}
+
+.hud-top p {
+  margin: 0.35rem 0 0;
+  color: var(--ink-dim);
+  font-size: 0.95rem;
+}
+
+.hud-controls {
+  pointer-events: auto;
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  max-width: min(820px, 95vw);
+}
+
+.hud-controls button {
+  border: 1px solid var(--panel-border);
+  color: var(--ink);
+  background: var(--panel);
+  border-radius: 999px;
+  padding: 0.55rem 0.9rem;
+  cursor: pointer;
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.hud-controls button:hover,
+.hud-controls button:focus-visible {
+  transform: translateY(-1px);
+  border-color: var(--focus);
+  outline: none;
+  background: rgba(22, 34, 68, 0.8);
+}
+
+.hud-bottom {
+  align-self: flex-end;
+  max-width: min(620px, 92vw);
+  text-align: right;
+  padding: 0.7rem 0.95rem;
+  border: 1px solid var(--panel-border);
+  background: var(--panel);
+  border-radius: 14px;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+
+.hud-bottom p {
+  margin: 0.25rem 0;
+  color: var(--ink-dim);
+  line-height: 1.45;
+  font-size: 0.88rem;
+}
+
+body.high-contrast {
+  --ink: #ffffff;
+  --ink-dim: #d5ddff;
+  --panel: rgba(0, 0, 0, 0.66);
+  --panel-border: rgba(255, 255, 255, 0.68);
+  --focus: #ffffff;
+}
+
+@media (max-width: 760px) {
+  .hud {
+    padding: 0.7rem;
+    gap: 0.7rem;
+  }
+
+  .hud-bottom {
+    align-self: stretch;
+    text-align: left;
+  }
+
+  .hud-controls {
+    max-width: 100%;
+  }
+
+  .hud-controls button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+  }
+}

@@ -7,7 +7,7 @@
     "url": "https://github.com/nickhilster"
   },
   "version": "0.1.0",
-  "iframe_url": "https://electric-sheep-cathedral.vercel.app/",
+  "iframe_url": "https://c2m-playroom-electric-sheep-cathedr.vercel.app/",
   "thumbnail_url": "./prototype-screen.svg",
   "interact_style": "idle",
   "tags": ["ambient", "gaze", "breath", "autonomous"],
