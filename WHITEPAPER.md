@@ -61,5 +61,14 @@ If autonomous agents are beautiful enough to watch without touching, users feel 
 - Pointer and pseudo-breath via press-duration if mic unavailable.
 - Capture button that exports a poster-grade frame.
 
+## Teaser Video Storyboard (30 seconds)
+1. Shot 1 (0-4s): Black fades into luminous cathedral vault, flock particles assembling mid-air.
+2. Shot 2 (4-8s): Cursor halo appears; nearby flock bends toward gaze point.
+3. Shot 3 (8-12s): Slow inhale indicator rises; palette warms from indigo to dawn amber.
+4. Shot 4 (12-17s): Macro mandala pulse ripples through all flock bands.
+5. Shot 5 (17-22s): User drifts pointer across nave; stained-glass shards braid into arches.
+6. Shot 6 (22-27s): Exhale compresses scene into deep dusk tones with bell-like particles.
+7. Shot 7 (27-30s): Freeze-frame poster export with title card and seed ID.
+
 ## Why This Matters to c2m-verse
 Electric Sheep Cathedral establishes Playroom as not only playful, but ceremonial. It broadens the emotional palette of the c2m-verse and proves that autonomous beauty can be a first-class interaction pattern.

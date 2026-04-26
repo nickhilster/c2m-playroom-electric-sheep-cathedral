@@ -1,0 +1,16 @@
+{
+  "id": "electric-sheep-cathedral",
+  "title": "Electric Sheep Cathedral",
+  "description": "A contemplative flock cathedral shaped by gaze and breath.",
+  "author": {
+    "name": "Code2Motion Contributor",
+    "url": "https://github.com/nickhilster"
+  },
+  "version": "0.1.0",
+  "iframe_url": "https://electric-sheep-cathedral.vercel.app/",
+  "thumbnail_url": "./prototype-screen.svg",
+  "interact_style": "idle",
+  "tags": ["ambient", "gaze", "breath", "autonomous"],
+  "permissions": ["pointer", "audio"],
+  "c2m_format_version": "1.0"
+}
