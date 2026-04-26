@@ -61,6 +61,9 @@ If autonomous agents are beautiful enough to watch without touching, users feel 
 - Pointer and pseudo-breath via press-duration if mic unavailable.
 - Capture button that exports a poster-grade frame.
 
+## Shared Evaluation Rubric
+- See `EVALUATION_RUBRIC.md` for a consistent review matrix across c2m Playroom contributions.
+
 ## Teaser Video Storyboard (30 seconds)
 1. Shot 1 (0-4s): Black fades into luminous cathedral vault, flock particles assembling mid-air.
 2. Shot 2 (4-8s): Cursor halo appears; nearby flock bends toward gaze point.
